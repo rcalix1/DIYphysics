@@ -1,1 +1,1 @@
-# DIYphysics
+# DIY physics
