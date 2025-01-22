@@ -7,4 +7,5 @@
 * http://sam.zeloof.xyz
 * https://makezine.com/article/electronics/diy-silicon-design-your-own-chips/
 * Jeni Ellswort (https://www.youtube.com/watch?v=PdcKwOo7dmM)
+* https://www.youtube.com/watch?v=XJ9w7DjI_Bc
 * 
