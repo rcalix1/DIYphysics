@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DIY SPDC Entangled Photon Experiment — Shopping Guide</title>
+  <style>
+    body { font-family: sans-serif; line-height: 1.5; max-width: 800px; margin: auto; padding: 1em; }
+    h1, h2, h3 { color: #2a2a2a; }
+    ul { margin-bottom: 1em; }
+    .vendor { margin-left: 1em; font-size: 0.9em; }
+    code { background: #f4f4f4; padding: 0.2em 0.4em; }
+  </style>
+</head>
+<body>
+
+  <h1>🔬 DIY SPDC Entangled-Photon Lab Shopping List</h1>
+
+  <p>This list covers the core components—lasers, crystals, optics, detectors—along with reputable vendors (academic/industrial, no affiliate marketing). Everything on this list is buildable by a well-equipped hobbyist with good alignment skills.</p>
+
+  <h2>1. Pump Laser (≈405 nm diode)</h2>
+  <ul>
+    <li>
+      A 405 nm diode laser with adjustable current & temperature. Tech grade (a few mW) is enough.
+      <div class="vendor">
+        • Available from hobby/laser-specialist stores (e.g., eBay or AliExpress “405 nm laser diode module”). Choose <strong>TEC-stabilized</strong> for beampoint stability.
+      </div>
+    </li>
+  </ul>
+
+  <h2>2. SPDC Crystal – β‑BBO</h2>
+  <ul>
+    <li>
+      Type-I or Type-II β‑BaB₂O₄ (BBO) crystal, AR-coated for 405→810 nm.
+      <div class="vendor">
+        • Newlight Photonics (USA): BBO crystals cut and AR-coated, mounted 5×5 mm, ideal for lab setups :contentReference[oaicite:1]{index=1}.
+      </div>
+      <div class="vendor">
+        • Thorlabs (NJ, USA): Offers 1 in mounted β‑BBO for SPDC at 405 nm, Type-I/II, with rotation mounts and detailed specs :contentReference[oaicite:2]{index=2}.
+      </div>
+      <div class="vendor">
+        • EKSMA Optics (Lithuania/EU): Offers a variety of BBO crystals (mounted/unmounted, custom coatings) starting ≈$400 :contentReference[oaicite:3]{index=3}.
+      </div>
+    </li>
+    <li>Optional: Paired-crystal setup (two Type-I rotated 90°) for polarization entanglement :contentReference[oaicite:4]{index=4}.</li>
+  </ul>
+
+  <h2>3. Optics & Mounts</h2>
+  <ul>
+    <li>
+      AR-coated long-pass filter (OD ≥ 7) to block pump and pass 810 nm.
+      <div class="vendor">• Thorlabs catalog includes suitable filters with datasheets.</div>
+    </li>
+    <li>λ/2 waveplate, polarizing beam splitters (PBS), mirrors, irises, lenses—available via Thorlabs or local optics labs.</li>
+    <li>Precision kinematic mounts, rotation stages (e.g., Thorlabs RSP1), and posts for alignment :contentReference[oaicite:5]{index=5}.</li>
+  </ul>
+
+  <h2>4. Single‑Photon Detectors (SPAD or single-photon module)</h2>
+  <ul>
+    <li>
+      Single‑photon avalanche diodes (SPADs) or photon-counting modules:
+      <div class="vendor">
+        • Hamamatsu: scientific‑grade SPAD modules, <7 cps dark count, built-in temperature control :contentReference[oaicite:6]{index=6}.
+      </div>
+      <div class="vendor">
+        • PicoQuant (Magellan Photonics): PDM series with timing resolution <50 ps, active areas 20–100 µm, fiber coupler options :contentReference[oaicite:7]{index=7}.
+      </div>
+      <div class="vendor">
+        • Wooriro InGaAs/InP SPAD for 1100–1600 nm (if you want NIR entangled photons) :contentReference[oaicite:8]{index=8}.
+      </div>
+      <div class="vendor">
+        • Axiom Optics “SPAD23” array for timing-critical experiments or camera style setups :contentReference[oaicite:9]{index=9}.
+      </div>
+    </li>
+  </ul>
+
+  <h2>5. Timing Electronics</h2>
+  <ul>
+    <li>Time-correlated single-photon counting module (e.g., PicoHarp, HydraHarp).</li>
+    <li>PicoQuant or similar pulsed laser controllers and detection integration modules.</li>
+  </ul>
+
+  <h2>6. Misc & Enclosure</h2>
+  <ul>
+    <li>Optical breadboard or rail system with posts.</li>
+    <li>Black hose or tubes for dark-path alignment.</li>
+    <li>Safety goggles rated for 405 nm UV/blue.</li>
+  </ul>
+
+  <h3>💡 Tips</h3>
+  <ul>
+    <li>Use dark enclosure, baffles, and pinholes to minimize background.</li>
+    <li>Walk-off in BBO: expect a few % conversion—longer crystals help (Type-I easier to align) :contentReference[oaicite:10]{index=10}.</li>
+    <li>Paired-crystal entanglement increases brightness and Bell–test visibility :contentReference[oaicite:11]{index=11}.</li>
+  </ul>
+
+  <h2>Putting It All Together</h2>
+  <ol>
+    <li>Mount laser → focus onto AR filter into BBO → align entangled cones.</li>
+    <li>Place polarizers/PBS in each arm, coupling into SPADs or fibers.</li>
+    <li>Use long-pass filter to block pump before detectors.</li>
+    <li>Record coincidences and measure polarization correlations.</li>
+  </ol>
+
+  <p>This builds a classic SPDC entanglement setup similar to Veritasium’s—but with scientific-grade parts you can actually source. Let me know if you'd like diagrams or exact part numbers!</p>
+
+</body>
+</html>
