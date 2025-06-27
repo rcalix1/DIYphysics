@@ -1,5 +1,8 @@
-# DIY physics
+# Several DIY physics ideas
 
 * https://rcalix1.github.io/DIYphysics/
 * link
+
+## Static Memory gadget
+
 * 
