@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Static Memory Pad - DIY Touchless Charge Logger</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 20px 10px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+    }
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+    .image {
+      max-width: 100%;
+      margin: 20px 0;
+      border: 1px solid #ccc;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    code {
+      background: #eee;
+      padding: 2px 5px;
+      border-radius: 3px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🔋 Static Memory Pad</h1>
+    <p>A DIY Touchless Charge Logger Inspired by The Action Lab</p>
+  </header>
+
+  <main>
+    <h2>🔧 What You'll Need</h2>
+    <ul>
+      <li>Aluminum foil or copper tape (for sensors)</li>
+      <li>Plastic sheet (e.g., from a Tupperware lid or repurposed packaging)</li>
+      <li>High impedance buffer (e.g., CD4060 CMOS IC or TL081 op-amp)</li>
+      <li>LEDs</li>
+      <li>Resistors (10kΩ and 100kΩ)</li>
+      <li>Optional: Arduino or microcontroller</li>
+    </ul>
+
+    <h2>🛒 Buy Components Online</h2>
+    <ul>
+      <li><a href="https://www.sparkfun.com/products/10524" target="_blank">Aluminum Tape - SparkFun</a></li>
+      <li><a href="https://www.adafruit.com/product/1782" target="_blank">TL081 Op-Amp - Adafruit</a></li>
+      <li><a href="https://www.amazon.com/dp/B07KTSZ2FQ" target="_blank">Assorted Resistors - Amazon</a></li>
+      <li><a href="https://www.adafruit.com/product/276" target="_blank">LED Pack - Adafruit</a></li>
+      <li><a href="https://store.arduino.cc/products/arduino-uno-rev3" target="_blank">Arduino Uno - Arduino Store</a></li>
+    </ul>
+
+    <h2>📸 Sample Layout</h2>
+    <img class="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Electroscope_in_use.svg/512px-Electroscope_in_use.svg.png" alt="Simple electroscope sensor">
+
+    <h2>🛠️ Assembly Instructions</h2>
+    <ol>
+      <li>Cut a plastic base and stick foil or copper tape patches where detection zones will be.</li>
+      <li>Connect each foil zone to an op-amp buffer or high-impedance digital input.</li>
+      <li>Use pull-down resistors (~10MΩ) to ground to slowly discharge residual voltage.</li>
+      <li>Connect the op-amp output to an LED (or digital pin on Arduino) to log the event.</li>
+      <li>Optionally: program Arduino to log and display charge interactions with timestamps.</li>
+    </ol>
+
+    <h2>💡 How It Works</h2>
+    <p>Bringing a statically charged object near a foil patch induces a voltage. This is sensed by a high-impedance input and used to trigger a response (like lighting up an LED or logging in software). Even after the charge leaves, residual influence can remain, giving the illusion of "memory." This effect can persist due to surface polarization or trapped charge in the material.</p>
+
+    <footer>
+      Made for fun and science by a curious mind. Inspired by The Action Lab and a healthy dose of static.
+    </footer>
+  </main>
+</body>
+</html>
