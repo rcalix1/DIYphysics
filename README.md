@@ -9,4 +9,4 @@
 
 ## SPDC Quantum experiment
 
-* https://rcalix1.github.io/DIYphysics/SPDCQuantum/
+* https://rcalix1.github.io/DIYphysics/SPDCquantum/
