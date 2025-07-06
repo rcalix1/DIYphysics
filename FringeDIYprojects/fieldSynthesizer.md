@@ -201,6 +201,83 @@ In North America: 1500W at 120V = 12.5A, so safely runs on one standard 15A outl
 
 ---
 
+# Pillar v1: DIY Modular Fringe Science Platform (Detailed Module Table)
+
+The Pillar is a modular, GPU-assisted platform capable of controlling, powering, and collecting data from a suite of fringe-scientific modules. Below is a breakdown of each integrated module, its purpose, required components, risks, and system connections.
+
+---
+
+## 🧠 Core Processing Unit
+
+| Feature    | Description                                            |
+| ---------- | ------------------------------------------------------ |
+| Component  | NVIDIA RTX GPU (3090 or equivalent)                    |
+| Function   | FFT, inference, control logic, real-time processing    |
+| Interfaces | USB, PCIe, optional FPGA coprocessor                   |
+| Notes      | Runs control models, analysis pipelines, visualization |
+
+---
+
+## 🔌 System I/O Backbone
+
+| Feature   | Description                                              |
+| --------- | -------------------------------------------------------- |
+| Component | USB/Serial/Canbus Breakout Boards                        |
+| Function  | Connects and powers modules, handles protocol conversion |
+| Notes     | Can include I2C, SPI, UART hubs depending on need        |
+
+---
+
+## 🌐 Network + Telemetry
+
+| Feature   | Description                                            |
+| --------- | ------------------------------------------------------ |
+| Component | WiFi card + SDR dongle (e.g. HackRF, RTL-SDR)          |
+| Function  | Remote control, data capture, signal broadcast/receive |
+| Notes     | External SDR antenna mounted outside shielded case     |
+
+---
+
+## ⚡ Power Supply System
+
+| Feature   | Description                                        |
+| --------- | -------------------------------------------------- |
+| Component | Dual PSU (850W GPU, 600W bench adjustable)         |
+| Function  | Isolated power to emitter modules                  |
+| Notes     | Adjustable DC rails for variable field intensities |
+
+---
+
+## 🔲 Master Control + Display
+
+| Feature   | Description                                |
+| --------- | ------------------------------------------ |
+| Component | OLED or eInk panel + rotary encoder        |
+| Function  | Status, logs, tuning knobs for each module |
+| Notes     | Can include touchscreen if needed          |
+
+---
+
+## MODULE INTEGRATION TABLE
+
+| #  | Module Name                     | Type    | Emitter / Receiver | Purpose / Use Case                                  | Interfaces     | Power Source | Notes                              |
+| -- | ------------------------------- | ------- | ------------------ | --------------------------------------------------- | -------------- | ------------ | ---------------------------------- |
+| 1  | Magnetic Bound-State Driver     | Field   | Emitter            | Create strange field zones via rotating magnets     | PWM + relay    | DC motor     | Based on Hamdi Ucar's research     |
+| 2  | Plasma Antenna / Emitter        | Plasma  | Both               | Modulated plasma burst communication or energy      | DAC + analog   | Bench PSU    | Must shield heat + voltage         |
+| 3  | Coil Resonance EM Generator     | EM      | Emitter            | Generate standing EM field waves, magnetic shaping  | PWM driver     | Bench PSU    | Tesla-like coil output             |
+| 4  | Passive Sensor Bank             | Sensor  | Receiver           | Pick up subtle shifts: EM, RF, thermal, acoustic    | I2C / SPI      | USB power    | Connects to AI for signal analysis |
+| 5  | Entanglement Trigger Module     | Quantum | Emitter            | Launches SPDC crystal setup for photon entanglement | TTL / trigger  | Laser PSU    | For pairing with quantum radio     |
+| 6  | Entangled Receiver Array        | Quantum | Receiver           | Detect polarization / coincidence counts            | ADC / USB      | USB power    | Requires synced clocks             |
+| 7  | Field Envelope Actuator         | Electro | Emitter            | Create synthetic shielding field shapes             | DAC / H-Bridge | Bench PSU    | For ‘force field’ tests            |
+| 8  | Field Resonance Chamber         | Hybrid  | Receiver           | Detect return fields or modulated patterns          | ADC / FFT GPU  | Shared PSU   | Uses Helmholtz coils or arrays     |
+| 9  | Capacitor-Based Oscillator Ring | Energy  | Emitter            | Slow decay ring for pseudo-time-crystal experiments | RC switches    | Bench PSU    | Dangerous voltages                 |
+| 10 | Analog Signal Mixer             | Comms   | Both               | Combines classical + entangled signal lines         | Analog mux     | USB power    | Syncs channels for analysis        |
+
+---
+
+Would you like individual schematic diagrams for each module or a master circuit board layout overview?
+
+
 ## 💬 Nickname
 
 ![The Pillar 2](pillar2.png)
