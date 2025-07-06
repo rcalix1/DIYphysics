@@ -68,11 +68,15 @@ Generate and detect entangled photon pairs using SPDC (Spontaneous Parametric Do
 
 Build a photonic quantum gate (e.g., CNOT) using entangled photons. This demonstrates quantum logic acting on entangled states — the core of quantum computing.
 
+![B](B.png)
+
 ### 🧠 What You'll Demonstrate
 
 * Logic behavior on shared entangled states
 * Quantum interference patterns
 * Quantum logic without classical equivalents
+
+![C](C.png)
 
 ### 🔧 Additional Components (on top of Project 1)
 
