@@ -1,5 +1,7 @@
 # Project 3: The Pillar (Field Synthesizer)
 
+![The Pillar](pillar.png)
+
 ## 🧲 Description
 
 A modular device designed to generate, blend, and modulate various field types: electric, magnetic, acoustic, plasma, gravitational analogs, and exotic derivatives. This system is conceived as a testbed for understanding and shielding complex field interactions (e.g., cosmic ray shielding, EM interference control), and possibly sensing/detecting anomalies via resonance or feedback.
