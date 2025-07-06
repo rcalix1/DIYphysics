@@ -203,5 +203,7 @@ In North America: 1500W at 120V = 12.5A, so safely runs on one standard 15A outl
 
 ## 💬 Nickname
 
+![The Pillar 2](pillar2.png)
+
 > "The Pillar" — a standalone artifact of protection, energy, and field synthesis. Home of the strange.
 
