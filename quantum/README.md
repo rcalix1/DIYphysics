@@ -21,7 +21,7 @@ This README describes two foundational quantum experiments you can build and ope
 
 Generate and detect entangled photon pairs using SPDC (Spontaneous Parametric Down-Conversion), then demonstrate a violation of the CHSH version of Bell's inequality.
 
-[A](A.png)
+![A](A.png)
 
 ### 🧠 What You'll Prove
 
