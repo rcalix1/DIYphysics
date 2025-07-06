@@ -1,6 +1,6 @@
 ## Fringe DIY Projects
 
-* link
+
 
 ### 🧪 Fringe Science Projects (DIY-Based, Real-Science Grounded)
 
