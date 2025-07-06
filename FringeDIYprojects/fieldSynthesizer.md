@@ -205,6 +205,8 @@ In North America: 1500W at 120V = 12.5A, so safely runs on one standard 15A outl
 
 The Pillar is a modular, GPU-assisted platform capable of controlling, powering, and collecting data from a suite of fringe-scientific modules. Below is a breakdown of each integrated module, its purpose, required components, risks, and system connections.
 
+![The Pillar 2](pillar2.png)
+
 ---
 
 ## 🧠 Core Processing Unit
@@ -280,7 +282,7 @@ Would you like individual schematic diagrams for each module or a master circuit
 
 ## 💬 Nickname
 
-![The Pillar 2](pillar2.png)
+
 
 > "The Pillar" — a standalone artifact of protection, energy, and field synthesis. Home of the strange.
 
