@@ -351,7 +351,6 @@ Subtotal (Power): **\$330**
 
 > Note: DIYers could substitute lower-cost GPU (e.g., 3060 or used parts) to reduce budget by \$600–\$1,000.
 
-Let me know if you want a bill of materials (BOM) spreadsheet or purchasing links for parts!
 
 
 
@@ -359,5 +358,5 @@ Let me know if you want a bill of materials (BOM) spreadsheet or purchasing link
 
 
 
-> "The Pillar" — a standalone artifact of protection, energy, and field synthesis. Home of the strange.
+> "The Pillar" — a standalone artifact of  energy, and field sensing, synthesis, and analysis. Home of the strange.
 
