@@ -277,7 +277,82 @@ The Pillar is a modular, GPU-assisted platform capable of controlling, powering,
 
 ---
 
-Would you like individual schematic diagrams for each module or a master circuit board layout overview?
+**Pillar Module Details**
+
+---
+
+### 🧠 Core Processing Unit
+
+| Component                               | Description                                              | Estimated Cost |
+| --------------------------------------- | -------------------------------------------------------- | -------------- |
+| NVIDIA GPU (e.g. RTX 3090)              | High-performance compute for signal processing, ML, FFTs | \$1,200        |
+| Motherboard + CPU (Ryzen 7 or Intel i7) | Backbone for GPU and peripheral management               | \$600          |
+| RAM (32–64 GB)                          | For data buffering and ML operations                     | \$150–\$300    |
+| SSD (1TB NVMe)                          | Fast local storage for signal data                       | \$100          |
+| Power Supply (850W Modular)             | Stable power for compute core                            | \$150          |
+| Case (Rackmount or Tower)               | Housing + airflow for all core modules                   | \$150          |
+
+Subtotal (Core Unit): **\$2,350–\$2,500**
+
+---
+
+### 🔌 I/O Hub + Sensor Integration
+
+| Component                            | Description                                 | Estimated Cost |
+| ------------------------------------ | ------------------------------------------- | -------------- |
+| USB/SPI/UART Hub (multiport)         | For connecting sensors and emitters         | \$80           |
+| GPIO + ADC/DAC Breakout Boards       | Read analog/digital inputs, control outputs | \$60           |
+| SDR Dongle (e.g., HackRF or RTL-SDR) | Software-defined radio reception            | \$150–\$300    |
+| Wi-Fi + Ethernet Modules             | Communication, telemetry                    | \$30           |
+| OLED/Touch Display Panel             | Diagnostics, mode switching                 | \$40           |
+| Mount Rails + Wiring Kits            | Modular sensor mounting and flexible wiring | \$100          |
+
+Subtotal (I/O + Sensors Base): **\$460–\$610**
+
+---
+
+### 🌀 Field Synth + Emission Modules
+
+| Module                                | Function                                       | Power Draw | Est. Cost |
+| ------------------------------------- | ---------------------------------------------- | ---------- | --------- |
+| Helmholtz Coils                       | Magnetic field shaping                         | 100–250W   | \$120     |
+| Plasma Nozzles (miniature)            | Field ion emission                             | 300W       | \$200     |
+| High Voltage Tesla-style Coil         | Voltage resonance modulation                   | 500W       | \$250     |
+| Dielectric Plates + Frequency Driver  | Electrostatic lensing                          | 150W       | \$100     |
+| Shielding Panels (Faraday + Mu-metal) | Field isolation & containment                  | —          | \$150     |
+| Entanglement Input (SPDC module)      | Photon pair generation for quantum interaction | 50W        | \$300     |
+| Audio-to-Field Transducers            | Convert audio modulations into fields          | 50W        | \$80      |
+| Capacitive Time Oscillator            | Cyclic temporal modulator                      | 30W        | \$90      |
+
+Subtotal (Field Synth Modules): **\$1,290**
+
+---
+
+### 🧃 Power System
+
+| Component                               | Description                         | Estimated Cost |
+| --------------------------------------- | ----------------------------------- | -------------- |
+| Isolated Lab Power Supply (3–5 outputs) | Drive independent modules safely    | \$250          |
+| Surge + Noise Filtering                 | Prevent cross-modulation and spikes | \$80           |
+
+Subtotal (Power): **\$330**
+
+---
+
+### 📦 Final Cost Estimate Summary
+
+| Category            | Range               |
+| ------------------- | ------------------- |
+| Core Unit           | \$2,350–\$2,500     |
+| I/O + Sensors       | \$460–\$610         |
+| Field Synth Modules | \$1,290             |
+| Power System        | \$330               |
+| **TOTAL**           | **\$4,430–\$4,730** |
+
+> Note: DIYers could substitute lower-cost GPU (e.g., 3060 or used parts) to reduce budget by \$600–\$1,000.
+
+Let me know if you want a bill of materials (BOM) spreadsheet or purchasing links for parts!
+
 
 
 ## 💬 Nickname
