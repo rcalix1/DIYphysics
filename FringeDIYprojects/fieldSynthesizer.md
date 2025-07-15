@@ -339,6 +339,12 @@ Subtotal (Power): **\$330**
 
 ---
 
+## BOM
+
+* https://github.com/rcalix1/DIYphysics/blob/main/FringeDIYprojects/BOM.md
+
+---
+
 ### 📦 Final Cost Estimate Summary
 
 | Category            | Range               |
