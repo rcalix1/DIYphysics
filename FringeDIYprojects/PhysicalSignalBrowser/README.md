@@ -74,6 +74,7 @@ This project also ties into **The Pillar**, a modular, field-based device envisi
 
 #### 3. Flipper Zero (\~\$200)
 
+* https://flipperzero.one
 * Sub-GHz RF (315/433/868/915 MHz)
 * NFC, RFID, BLE sniffing, IR blasting
 * Hacker interface; not full SDR but versatile
