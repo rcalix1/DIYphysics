@@ -4,7 +4,7 @@
 
 This project combines two powerful quantum experiments into a single modular setup:
 
-* **Bell Inequality Verification** to prove real entanglement.
+* **Bell Inequality Verification** to prove real entanglement (https://github.com/rcalix1/DIYphysics/tree/main/quantum).
 * **Photonic CNOT Gate** to demonstrate basic quantum logic.
 
 Together, they form a real, functioning entanglement core that is not only educational but foundational for exploring advanced quantum devices.
